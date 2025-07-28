@@ -1,11 +1,33 @@
-# Python-generated files
+# Python cache files
 __pycache__/
 *.py[oc]
+*.pyo
+*.pyd
+
+# Build artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+
+# Environment variables
 .env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Chainlit temp folder
+.chainlit/
+
+# VSCode config (optional)
+.vscode/
+
+# Log files
+*.log
